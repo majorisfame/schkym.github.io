@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sekáč - Registracia</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/sk_SK/sdk.js#xfbml=1&version=v4.0"></script>
+</head>
+
+
+<!--### BODY ###-->
+
+<body>
+    <div class="navigation">
+        <ul>
+            <li><a href="./index.html">Uvod</a></li>
+            <li><a href="./onas.html">O nas</a></li>
+            <li><a href="./produkty.html">Produkty</a></li>
+            <li><a href="./kontakt.html">Kontakt</a></li>
+        </ul>
+    </div>
+
+    <div class="login">
+        <form>
+            <br>
+            <label for="username"><b>Meno:</b></label>
+            <br>
+            <input type="text" name="username" placeholder="Meno" required>
+
+            <br>
+            <label for="username"><b>Priezvisko:</b></label>
+            <br>
+            <input type="text" name="username" placeholder="Priezvisko" required>
+
+            <br>
+            <label for="username"><b>Email:</b></label>
+            <br>
+            <input type="text" name="username" placeholder="Email" required>
+
+            <br>
+            <label for="years"><b>Datum narodenia:</b></label>
+            <br>
+            <input id="years" name="years" type="date" step="1" placeholder="dd/mm/rrrr" required>
+
+            <br>
+            <label for="username"><b>Heslo:</b></label>
+            <br>
+            <input type="password" name="password" placeholder="Heslo" required>
+
+            <br>
+            <span><b>Pohlavie:</b></span>
+            <br>
+            <label for="muz"><b>Muz</b></label>
+            <input type="checkbox" name="muz" id="muz">
+            <label for="muz"><b>Zena</b></label>
+            <input type="checkbox" name="zena" id="zena">
+            <br>
+            <input type="submit" id="submission" value="Submit">
+
+
+            <div class="fb-login-button" data-width="20" data-size="large" data-button-type="login_with" data-auto-logout-link="false" data-use-continue-as="true"></div>
+        </form>
+    </div>
+</body>
+
+</html>
